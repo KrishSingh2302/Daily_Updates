@@ -23,13 +23,14 @@
 ## KiCad Design
 
 #### Schematic View  
-![[Schematic.png|600]]
+![Schematic](Schematic.png)
 
 #### PCB Layout  
-![[PCB.png|600]]
+![PCB](PCB.png)
 
 #### 3D PCB View  
-![[3DPCB.png|600]]
+![3D PCB](3DPCB.png)
+
 
 ## Plan for Tomorrow
 - **Task 1:** Learn more about GitHub commands.
