@@ -1,2 +1,3 @@
-# Daily_Updates
-Daily tasks done and progress updates
+# Daily Project Updates
+
+This repository contains my daily progress updates on various electronics and PCB-related tasks.
