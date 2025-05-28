@@ -20,5 +20,16 @@
 - **Task 2:** Completed the first half of Chapter 1 from the *Printed Circuit Boards Design* book.
 - **Task 3:** Watched tutorials on how to interface analog sensors with a Raspberry Pi.
 
+## KiCad Design
+
+#### Schematic View  
+![[Schematic.png|600]]
+
+#### PCB Layout  
+![[PCB.png|600]]
+
+#### 3D PCB View  
+![[3DPCB.png|600]]
+
 ## Plan for Tomorrow
 - **Task 1:** Learn more about GitHub commands.
