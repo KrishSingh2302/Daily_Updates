@@ -32,4 +32,5 @@
 <img src="images/3DPCB.png" width="600" height="600" />
 
 ## Plan for Tomorrow
-- **Task 1:** Learn more about GitHub commands.
+- **Task 1:** Learn more about GitHub commands. 
+- **Task 2:** Complete the 1st chapter of the book.
