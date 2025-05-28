@@ -10,6 +10,8 @@
 - **Task 3:** Try to optimize the Op-Amp design and learn techniques for efficient PCB routing.
 
 
+---
+
 
 # Daily Report — 28-05-2025
 
