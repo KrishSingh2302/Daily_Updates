@@ -34,3 +34,13 @@
 ## Plan for Tomorrow
 - **Task 1:** Learn more about GitHub commands. 
 - **Task 2:** Complete the 1st chapter of the book.
+
+
+---
+
+
+# Daily Report — 29-05-2025
+
+## Tasks Completed
+- **Task 1:** Learned how to connect VS Code with GitHub and commit changes directly from VS Code.
+- **Task 2:** Read more about the PCB design flow and understood the general steps involved
