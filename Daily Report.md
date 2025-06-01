@@ -43,4 +43,4 @@
 
 ## Tasks Completed
 - **Task 1:** Learned how to connect VS Code with GitHub and commit changes directly from VS Code.
-- **Task 2:** Read more about the PCB design flow and understood the general steps involved.
+- **Task 2:** Read more about the PCB design flow and understood the general steps involved .
