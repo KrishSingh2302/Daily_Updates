@@ -44,3 +44,18 @@
 ## Tasks Completed
 - **Task 1:** Learned how to connect VS Code with GitHub and commit changes directly from VS Code.
 - **Task 2:** Read more about the PCB design flow and understood the general steps involved .
+
+
+---
+
+
+# Daily Report — 2-06-2025
+
+## Tasks Completed
+- **Task 1:** Connected Raspberry Pi to the laptop via SSH for remote access.
+- **Task 2:** Detected motion using the CDM324 sensor connected to the Raspberry Pi.
+
+## Issues faced 
+- **Issue 1:** The CDM324 sensor occasionally gave random or unstable values.
+
+
