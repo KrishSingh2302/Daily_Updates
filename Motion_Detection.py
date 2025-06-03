@@ -54,7 +54,6 @@ prev_time = time.time()
 # Threshold above which motion will be detected 
 THRESHOLD = 60
 
-print("Starting smart motion detection system. Press Ctrl+C to stop.")
 
 while True:
     # Read sensor and update buffer
