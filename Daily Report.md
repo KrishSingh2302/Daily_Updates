@@ -49,7 +49,7 @@
 ---
 
 
-# Daily Report — 2-06-2025
+# Daily Report — 02-06-2025
 
 ## Tasks Completed
 - **Task 1:** Connected Raspberry Pi to the laptop via SSH for remote access.
@@ -57,5 +57,17 @@
 
 ## Issues faced 
 - **Issue 1:** The CDM324 sensor occasionally gave random or unstable values.
+
+
+---
+
+
+# Daily Report — 03-06-2025
+
+## Tasks Completed
+- **Task 1:** Fixed the issue of the CDM324 sensor occasionally giving random values.
+- **Task 2:** Connected and interfaced the Pi Camera module with the Raspberry Pi.
+- **Task 3:** Integrated the CDM324 sensor with the Pi Camera so it captures a photo when motion is detected and saves it with the filename format `current_time.jpeg`.
+
 
 
