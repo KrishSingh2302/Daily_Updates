@@ -68,7 +68,7 @@
 - **Task 1:** Fixed the issue of the CDM324 sensor occasionally giving random values.
 - **Task 2:** Connected and interfaced the Pi Camera module with the Raspberry Pi.
 - **Task 3:** Integrated the CDM324 sensor with the Pi Camera so it captures a photo when motion is detected and saves it with the filename format `current_time.jpeg`.
-- **Task 3:** Integrated a database management system to store the timestamp and image path in the database.
+- **Task 4:** Integrated a database management system to store the timestamp and image path in the database.
 
 ## Progress Screenshots
 
