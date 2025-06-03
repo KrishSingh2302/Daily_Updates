@@ -69,5 +69,12 @@
 - **Task 2:** Connected and interfaced the Pi Camera module with the Raspberry Pi.
 - **Task 3:** Integrated the CDM324 sensor with the Pi Camera so it captures a photo when motion is detected and saves it with the filename format `current_time.jpeg`.
 
+## Progress Screenshots
+
+#### Cicuit Implementation
+<img src="images/Circuit.jpg" width="600" height="600" />
+
+#### Program Code  
+<img src="images/Motion.png" width="600" height="600" />
 
 
