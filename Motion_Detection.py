@@ -5,6 +5,26 @@ import adafruit_ads1x15.ads1115 as ADS
 from adafruit_ads1x15.analog_in import AnalogIn
 from picamera2 import Picamera2
 from datetime import datetime
+import sqlite3
+
+#SQL database
+# Creates a data
+conn = sqlite3.connect('/home/pi/motion_events.db') #connector to data base
+c = conn.cursor() #Cursor of the data base
+#Makig tables in the database, if already exists append that table
+c.execute('''
+    CREATE TABLE IF NOT EXISTS events (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        timestamp TEXT,
+        image_path TEXT
+    )
+''')
+
+#This function saves the time and image path to the database
+def save_event(timestamp, image_path):
+    c.execute("INSERT INTO events (timestamp, image_path) VALUES (x, y)", (timestamp, image_path))
+    conn.commit()
+conn.commit()
 
 # Connecting I2C bus and ADS1115 ADC
 i2c = busio.I2C(board.SCL, board.SDA)
@@ -20,13 +40,22 @@ camera.start()
 
 while True:
     value = chan.value
-    print("ADC Value:", value)
+    print("ADC Value:", value)	
     if value > THRESHOLD:
         print("Motion detected!")
+        
         # Creating a file name according to current time and date
         timestamp = datetime.now().strftime("%H%M%S_%d%m%Y")
         filename = f"/home/pi/motion_{timestamp}.jpg"
         camera.capture_file(filename)
         print(f"Photo saved as {filename}")
+        
+        # Save event to database
+        save_event(timestamp, filename)
+        print(f"Event saved to database at {timestamp}")
+        
         time.sleep(1)  # to prevent multiple counting
+    
     time.sleep(0.1)
+
+    
