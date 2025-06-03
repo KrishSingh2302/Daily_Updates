@@ -72,9 +72,9 @@
 ## Progress Screenshots
 
 #### Cicuit Implementation
-<img src="images/Circuit.jpg" width="600" height="600" />
+<img src="images/Circuit.jpg" width="600" height="400" />
 
 #### Program Code  
-<img src="images/Motion.png" width="600" height="600" />
+<img src="images/Motion.png" width="600" height="400" />
 
 
