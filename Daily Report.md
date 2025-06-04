@@ -61,7 +61,8 @@
 
 ---
 
-
+## Issues faced 
+- **Issue 1:** The CDM324 sensor occasionally gave random or unstable values.
 # Daily Report — 03-06-2025
 
 ## Tasks Completed
@@ -75,5 +76,18 @@
 #### Cicuit Implementation
 <img src="images/Circuit.jpg" width="600" height="400" />
 
+
+---
+
+
+# Daily Report — 04-06-2025
+
+## Tasks Completed
+- **Task 1:** Implemented distance calculation using the Doppler effect with the CDM324 sensor.
+- **Task 2:** Implemented basic image recognition using the TensorFlow MobileNetV2 model and stored the results in the database.
+- **Task 3:** Studied more advanced PCB design rules and best practices.
+
+## Issues faced 
+- **Issue 1:** The calculated distance using the Doppler effect concept was always returning 0.
 
 
