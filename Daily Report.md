@@ -91,3 +91,11 @@
 - **Issue 1:** The calculated distance using the Doppler effect concept was always returning 0.
 
 
+---
+
+
+# Daily Report — 05-06-2025
+
+## Tasks Completed
+- **Task 1:** Implemented machine learning–based image recognition using the TensorFlow Python library.
+
