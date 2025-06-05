@@ -61,8 +61,8 @@
 
 ---
 
-## Issues faced 
-- **Issue 1:** The CDM324 sensor occasionally gave random or unstable values.
+
+
 # Daily Report — 03-06-2025
 
 ## Tasks Completed
