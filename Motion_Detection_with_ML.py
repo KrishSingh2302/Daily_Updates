@@ -10,7 +10,7 @@ import tensorflow as tf
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input, decode_predictions
 from tensorflow.keras.preprocessing import image
 import numpy as np
-import smbus  # For TOF10120 I2C communication
+import smbus 
 
 # ------------------------- SQL database -------------------------
 # Connect to (or create) the SQLite database for logging events
