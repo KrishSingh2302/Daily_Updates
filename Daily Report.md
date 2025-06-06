@@ -99,3 +99,14 @@
 ## Tasks Completed
 - **Task 1:** Implemented machine learning–based image recognition using the TensorFlow Python library.
 
+
+---
+
+
+# Daily Report — 06-06-2025
+
+## Tasks Completed
+- **Task 1:** Calculated the distance to a moving object using the TOF10120 sensor.
+- **Task 2:** Switched to a new model (EfficientNetB0) for improved image recognition accuracy.
+
+
